@@ -370,8 +370,6 @@
 		<string>Apple</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>Legacy</key>
-		<string>LegacyBiosDefault</string>
 		<key>Log</key>
 		<false/>
 		<key>NeverHibernate</key>
@@ -593,7 +591,7 @@
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Scan</key>
 		<dict>
@@ -827,6 +825,66 @@
 				g/s/Dw==
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch 1 ©PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/sPD4cLBAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.4</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>
+				g/s/D4cLBAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch 2 ©PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QYP/Dw+DlAQAAA==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.4</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				QYP/Pw+DlAQAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch 3 ©PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g+MP0+NBCd8=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.4</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>
+				g+M/0+NBCd8=
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -835,6 +893,10 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<data>
+		S1yxn3TP
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>

@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Mon Mar 18 09:35:31 CST 2019
-Installer version: v2.4k r4895 EFI bootloader
+Clover EFI installer log - Thu Apr  4 09:36:25 CST 2019
+Installer version: v2.4k r4910 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -20,8 +20,8 @@ Installer version: v2.4k r4895 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +255.9 GB   disk2
                                  Physical Store disk1s2
-   1:                APFS Volume MacOS                   67.3 GB    disk2s1
-   2:                APFS Volume Preboot                 42.9 MB    disk2s2
+   1:                APFS Volume MacOS                   122.5 GB   disk2s1
+   2:                APFS Volume Preboot                 43.4 MB    disk2s2
    3:                APFS Volume Recovery                517.0 MB   disk2s3
    4:                APFS Volume VM                      2.1 GB     disk2s4
 
@@ -35,7 +35,8 @@ Installer version: v2.4k r4895 EFI bootloader
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/EFI/EFIROOTDIR/EFI folder to /Volumes/EFI/EFI-Backups/r4859/2019-03-18-09h35/EFI
+Backing up stage2 file /Volumes/EFI/EFIROOTDIR/boot  to /Volumes/EFI/EFI-Backups/r4895/2019-04-04-09h36/boot
+Backing up /Volumes/EFI/EFIROOTDIR/EFI folder to /Volumes/EFI/EFI-Backups/r4895/2019-04-04-09h36/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
