@@ -3,17 +3,38 @@
 <plist version="1.0">
 <dict>
 	<key>CloverRevision</key>
-	<integer>4910</integer>
+	<integer>5070</integer>
 	<key>InstalledThemes</key>
 	<array>
 		<string>embedded</string>
 		<string>random</string>
 		<string>SimpleThemeDark</string>
 		<string>Hackintosh_ID</string>
+		<string>Clovy</string>
 	</array>
 	<key>org.clover.bootloader.bootno</key>
 	<true/>
 	<key>org.clover.cloverefi.64.sata</key>
+	<true/>
+	<key>org.clover.drivers64.apfsdriverloader</key>
+	<true/>
+	<key>org.clover.drivers64.mandatory.audiodxe</key>
+	<true/>
+	<key>org.clover.drivers64.mandatory.fsinject</key>
+	<true/>
+	<key>org.clover.drivers64.mandatory.smchelper</key>
+	<true/>
+	<key>org.clover.drivers64.mandatory.xhcidxe</key>
+	<true/>
+	<key>org.clover.drivers64uefi.apfsdriverloader.uefi</key>
+	<true/>
+	<key>org.clover.drivers64uefi.mandatory.audiodxe.uefi</key>
+	<true/>
+	<key>org.clover.drivers64uefi.mandatory.datahubdxe.uefi</key>
+	<true/>
+	<key>org.clover.drivers64uefi.mandatory.fsinject.uefi</key>
+	<true/>
+	<key>org.clover.drivers64uefi.mandatory.smchelper.uefi</key>
 	<true/>
 </dict>
 </plist>

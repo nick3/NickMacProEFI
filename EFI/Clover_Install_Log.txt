@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Thu Apr  4 09:36:25 CST 2019
-Installer version: v2.4k r4910 EFI bootloader
+Clover EFI installer log - Tue Oct  8 10:08:06 CST 2019
+Installer version: v2.5k r5070 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -20,10 +20,10 @@ Installer version: v2.4k r4910 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +255.9 GB   disk2
                                  Physical Store disk1s2
-   1:                APFS Volume MacOS                   122.5 GB   disk2s1
-   2:                APFS Volume Preboot                 43.4 MB    disk2s2
-   3:                APFS Volume Recovery                517.0 MB   disk2s3
-   4:                APFS Volume VM                      2.1 GB     disk2s4
+   1:                APFS Volume MacOS                   228.0 GB   disk2s1
+   2:                APFS Volume Preboot                 44.3 MB    disk2s2
+   3:                APFS Volume Recovery                1.0 GB     disk2s3
+   4:                APFS Volume VM                      24.6 KB    disk2s4
 
 /dev/disk3 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -32,19 +32,26 @@ Installer version: v2.4k r4910 EFI bootloader
    2:                  Apple_HFS TimeMachine             499.9 GB   disk3s2
    3:       Microsoft Basic Data EXStorage               499.9 GB   disk3s3
 
+/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +1.1 GB     disk4
+   1:                  Apple_HFS DingTalk For Mac        967.3 MB   disk4s1
+
+/dev/disk5 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            RAM Disk               +1.1 GB     disk5
+
 ======================================================
 Backing up EFI files
 
-Backing up stage2 file /Volumes/EFI/EFIROOTDIR/boot  to /Volumes/EFI/EFI-Backups/r4895/2019-04-04-09h36/boot
-Backing up /Volumes/EFI/EFIROOTDIR/EFI folder to /Volumes/EFI/EFI-Backups/r4895/2019-04-04-09h36/EFI
+Backing up stage2 file /Volumes/EFI/EFIROOTDIR/boot  to /Volumes/EFI/EFI-Backups/r5070/2019-10-08-10h08/boot
+Backing up /Volumes/EFI/EFIROOTDIR/EFI folder to /Volumes/EFI/EFI-Backups/r5070/2019-10-08-10h08/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
 Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/EFI
 Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/EFI
 Stage 2 - Written boot6 (x64) to /Volumes/EFI/boot
-
-Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
 
 ======================================================
 =========== Clover EFI Installation Finish ===========
